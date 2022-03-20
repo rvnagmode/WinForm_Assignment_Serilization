@@ -71,6 +71,7 @@
             this.btnBinaryRead.TabIndex = 2;
             this.btnBinaryRead.Text = "Binary Read";
             this.btnBinaryRead.UseVisualStyleBackColor = true;
+            this.btnBinaryRead.Click += new System.EventHandler(this.btnBinaryRead_Click);
             // 
             // txtpcode
             // 
@@ -87,6 +88,7 @@
             this.bntSoapRead.TabIndex = 5;
             this.bntSoapRead.Text = "Soap Read";
             this.bntSoapRead.UseVisualStyleBackColor = true;
+            this.bntSoapRead.Click += new System.EventHandler(this.bntSoapRead_Click);
             // 
             // bntSoapWrite
             // 
@@ -96,6 +98,7 @@
             this.bntSoapWrite.TabIndex = 4;
             this.bntSoapWrite.Text = "SOAP Write";
             this.bntSoapWrite.UseVisualStyleBackColor = true;
+            this.bntSoapWrite.Click += new System.EventHandler(this.bntSoapWrite_Click);
             // 
             // btnXmlRead
             // 
